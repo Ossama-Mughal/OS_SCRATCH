@@ -12,7 +12,7 @@
 ### boot_sector_01.asm
  - In this assembly program we have not yet defined bootable code or disk
    partition information.
- - **jmp $** instruction is used to iterate inifinitely to the same location
+ - **jmp $** instruction is used to iterate infinitely to the same location
    ($ show current line). This is done in order to make cpu busy and not
    try to read any further instructions.
  - **times 510-($-$$) db 0** instruction is used to fill 510 - (2-0) bytes
